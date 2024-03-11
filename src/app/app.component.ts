@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { Component, NgModule } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-
+import {FormularioComponent} from './formulario/formulario.component'
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -11,3 +12,10 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'abacaxi';
 }
+
+@NgModule({
+  declarations: [],
+  imports:[],
+  bootstrap:[],
+})
+export class AppModule { }
